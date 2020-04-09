@@ -1,0 +1,105 @@
+/*General*/
+html {
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    font-size: 100%;
+}
+body, footer
+{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  color: rgb(124,124,124);
+  background-color: white;
+  opacity: 0.9;
+  margin: 0;
+  width: 100%;
+}
+footer
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+div
+{
+  display: block;
+  border: 1px solid black;
+}
+a
+{
+  color: rgb(124,124,124);
+  text-decoration: none;
+}
+/*Header*/
+header
+{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 1px solid rgb(124,124,124);
+
+}
+.heads
+{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+header nav
+{
+  padding right: 50px;
+}
+nav span
+{
+  display: inline-block;
+  margin-right: 50px;
+  padding: 20px 10px;
+}
+.heads img
+{
+  height: 70px;
+  max-width: 100%;
+  margin-left: 5px;
+  padding-right: 10px;
+}
+/*Content Attributes*/
+.Content
+{
+  display: flex;
+  width: auto;
+  max-width: 960px;
+  margin:0 auto;
+  padding-top: 70px;
+  flex-direction: column;
+  justify-content: center;
+}
+.Home .About
+{
+  /*background-image: url('../images/logo1.png');
+  background-repeat: no-repeat;
+  background-size: 100%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 90%;
+  width: 100%;
+}
+
+@media only screen and (max-width:1024px)
+{
+
+}
+@media only screen and (max-width:470px)
+{
+
+}
